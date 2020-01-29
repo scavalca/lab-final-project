@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+header img {
+    width: 30px;
+}
+
+}
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.first-section h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    width: 200;
+    height: 50;
+    margin: 0 10 0 10;
+    padding: 40px;
+}
+
+.first-section {
+    height: 600px;
+    background-color: rgba(232, 217, 217, 3);
+}
+
+.sector-two {
+    text-align: center;
+    font-size: 30px;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.first-botton {
+    color: rgba(0, 0, 0, 05);
+    background-color: #fb3e44;
+    color: white;
+    font-size: 24px;
+    padding: 15px 32px;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+}
+
+.second-botton {
+    color: rgba(0, 0, 0, 05);
+    background-color: #ffffff;
+    color: black;
+    font-size: 24px;
+    padding: 15px 32px;
+}
+
+.position-bottons {
+    text-align: center;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+#second-section {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-section img {
+    width: 300px;
+}
+
+.heading-backcolor {
+    background-color: rgba(255, 232, 178, 4);
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+    margin: 30px;
+}
+
+.text-article {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+}
+
+#third-section img {
+    width: 20px;
+}
+
+.text-bottom {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    font-size: 15px;
+    flex-direction: row;
+    margin: auto;
+}
+
+h3 {
+    color: #ED1C24;
+    font-size: 20px;
+}
+
+.box-shadow {
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    color: white;
+    background-color: #000000;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
