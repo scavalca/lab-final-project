@@ -13,10 +13,9 @@ header > div {
 }
 
 header img {
-    width: 30px;
+    width: 40px;
 }
 
-}
 nav {
   width: 600px;
 }
@@ -36,6 +35,67 @@ nav a {
 .blackHeart {
   width: 20px;
   margin-right: 1rem;
+  display: flex;
+  width: 300px;
+}
+
+.logo {
+    width: 70px;
+}
+
+.search-packages {
+    display: flex;
+    height: 60px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.search-packages > form {
+    display: flex;
+    align-items: center;
+    margin:0;
+    width:80%;
+    height:80%;
+    background-color: rgba(0,0,0,.05);
+    font-size: 16px;
+}
+
+.search-packages input {
+    height: 80%;
+    width: 90%;
+    border:0;
+    background-color: rgba(0,0,0,0);
+    font-size: 16px;
+}
+
+.glass {
+    width: 25px;
+    margin: 0 20px;
+}
+
+.search-botton {
+    width: 10%;
+    height: 100%;
+    color: white;
+    font-size: 1rem;
+    background-color: #fb3e44;
+    margin: 0;
+    cursor: pointer;
+}
+
+.join-botton a {
+    color: black;
+    padding:5px 15px;
+}
+
+.join-botton a {
+    color:rgba(0,0,0,.5);
+    transition: color 0.5s linear;
+}
+
+.login-botton {
+    border: 1px solid rgba(0,0,0,.5);
+    transition: border 0.5s linear;
 }
 
 .first-section h1 {
@@ -71,6 +131,7 @@ nav a {
     font-size: 24px;
     padding: 15px 32px;
     box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    font-weight: bold;
 }
 
 .second-botton {
@@ -79,6 +140,7 @@ nav a {
     color: black;
     font-size: 24px;
     padding: 15px 32px;
+    font-weight: bold;
 }
 
 .position-bottons {
@@ -112,16 +174,16 @@ nav a {
     justify-content: space-evenly;
     font-size: 15px;
     text-align: center;
-    width: 500px;
-    height: 30px;
+    width: 750px;
+    height: 100px;
 }
 
 #third-section img {
     width: 20px;
 }
 
-.text-bottom {
-    justify-content: center;
+.text-botton {
+    justify-content: space-between;
     align-items: center;
     display: flex;
     width: 1200px;
@@ -148,6 +210,13 @@ h3 {
     justify-content: center;
     align-items: flex-end;
     display: flex;
+    font-weight: bold;
+}
+
+.black-box {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 
