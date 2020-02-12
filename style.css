@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
 }
 
 header > div {
@@ -13,7 +15,7 @@ header > div {
 }
 
 header img {
-    width: 40px;
+    width: 20px;
 }
 
 nav {
@@ -32,8 +34,11 @@ nav a {
   color: black;
 }
 
+.blackHeart img {
+    width: 50px;
+}
+
 .blackHeart {
-  width: 20px;
   margin-right: 1rem;
   display: flex;
   width: 300px;
@@ -80,9 +85,12 @@ nav a {
     margin: 0;
     width: 100px;
     height: 34px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
-.join-botton a {
+.join-botton {
     color: black;
     padding: 3px 15px;
     text-decoration: none;
@@ -94,15 +102,16 @@ nav a {
     color: black;
     text-decoration: none;
     margin: 0 0 0 10px;
+    padding: 3px 15px;
 }
 
-.first-section h1 {
+.first-section div h1 {
     text-align: center;
     font-size: 80px;
     font-weight: bold;
     width: 200;
     height: 50px;
-    margin: 0 10 0 10;
+    margin: 0;
     padding: 40px;
 }
 
@@ -118,7 +127,7 @@ nav a {
     height: 0 50px 50px 50px;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 50px auto;
     padding: 30px;
 }
 
@@ -131,6 +140,7 @@ nav a {
     box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
     font-weight: bold;
     width: 200px;
+    text-decoration: none;
 }
 
 .second-botton {
@@ -141,11 +151,11 @@ nav a {
     padding: 15px 32px;
     font-weight: bold;
     width: 200px;
+    text-decoration: none;
 }
 
 .position-bottons {
     text-align: center;
-    padding: 70px;
     display: flex;
     justify-content: space-evenly;
   }
@@ -221,6 +231,7 @@ h3 {
     align-items: flex-end;
     display: flex;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .black-box {
